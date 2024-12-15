@@ -1,0 +1,155 @@
+/* Estilo general para el cuerpo de la página */
+body {
+  font-family: 'Open Sans', sans-serif; /* Establece la fuente */
+  font-size: 16px; /* Tamaño de fuente base */
+  line-height: 1.5; /* Espaciado entre líneas */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave para el fondo y color */
+}
+
+/* Estilo para el modo oscuro */
+body.dark-mode {
+  background-color: #121212; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+}
+
+/* Estilo para el jumbotron */
+.jumbotron {
+  background-color: #007bff; /* Fondo azul */
+  color: white; /* Texto blanco */
+  border-radius: 0; /* Sin bordes redondeados */
+}
+
+/* Estilo del jumbotron en modo oscuro */
+body.dark-mode .jumbotron {
+  background-color: #333; /* Fondo oscuro */
+}
+
+/* Estilo para el texto del día actual */
+#currentDay {
+  font-size: 1.2em; /* Tamaño de fuente ligeramente más grande */
+}
+
+/* Contenedor principal */
+.container {
+  margin-top: 20px; /* Espaciado superior */
+}
+
+/* Encabezado de cada día */
+.day-header {
+  margin-top: 20px; /* Espaciado superior */
+  font-size: 1.8em; /* Tamaño de fuente grande */
+  font-weight: bold; /* Negrita */
+  color: #007bff; /* Color azul */
+}
+
+/* Estilo para el encabezado de día en modo oscuro */
+body.dark-mode .day-header {
+  color: #00bfff; /* Color azul claro */
+}
+
+/* Contenedor de cada día */
+.day-container {
+  margin-bottom: 30px; /* Espaciado inferior */
+}
+
+/* Bloques de tiempo */
+.time-block {
+  display: flex; /* Flexbox para alinear los elementos */
+  align-items: center; /* Alineación vertical centrada */
+  border: 1px solid #ddd; /* Borde gris claro */
+  margin-bottom: 10px; /* Espaciado inferior */
+  padding: 10px; /* Relleno */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+/* Estilo para los bloques de tiempo en modo oscuro */
+body.dark-mode .time-block {
+  background-color: #333; /* Fondo oscuro */
+}
+
+/* Estilo para la hora en cada bloque de tiempo */
+.hour {
+  text-align: center; /* Centra el texto */
+  font-weight: bold; /* Negrita */
+  padding: 10px; /* Relleno */
+  background-color: #f8f9fa; /* Fondo gris claro */
+  border-right: 1px solid #ddd; /* Borde derecho */
+}
+
+/* Estilo para la hora en modo oscuro */
+body.dark-mode .hour {
+  background-color: #444; /* Fondo gris oscuro */
+}
+
+/* Estilo para el contenido de cada bloque de tiempo */
+.content {
+  padding: 10px; /* Relleno */
+  background-color: #fff; /* Fondo blanco */
+  border-left: 1px solid #ddd; /* Borde izquierdo */
+  border-right: 1px solid #ddd; /* Borde derecho */
+}
+
+/* Estilo para el contenido en modo oscuro */
+body.dark-mode .content {
+  background-color: #555; /* Fondo gris oscuro */
+}
+
+/* Estilo para las horas pasadas */
+.past {
+  background-color: #d3d3d3; /* Fondo gris claro */
+}
+
+/* Estilo para la hora presente */
+.present {
+  background-color: #ff6961; /* Fondo rojo */
+}
+
+/* Estilo para la hora futura */
+.future {
+  background-color: #77dd77; /* Fondo verde claro */
+}
+
+/* Estilo para los botones de guardar y eliminar */
+.saveBtn, .deleteBtn {
+  width: 100%; /* Botones ocupan todo el ancho */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para el botón de guardar */
+.saveBtn {
+  background-color: #28a745; /* Fondo verde */
+  color: white; /* Texto blanco */
+}
+
+/* Estilo para el botón de guardar al pasar el ratón */
+.saveBtn:hover {
+  background-color: #218838; /* Fondo verde más oscuro */
+}
+
+/* Estilo para el botón de eliminar */
+.deleteBtn {
+  background-color: #dc3545; /* Fondo rojo */
+  color: white; /* Texto blanco */
+  margin-top: 5px; /* Espaciado superior */
+}
+
+/* Estilo para el botón de eliminar al pasar el ratón */
+.deleteBtn:hover {
+  background-color: #c82333; /* Fondo rojo más oscuro */
+}
+
+/* Estilo para los grupos de formularios */
+.form-group {
+  margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilo para el modo oscuro en el botón de guardar */
+body.dark-mode .saveBtn {
+  background-color: #4CAF50; /* Fondo verde claro */
+}
+
+/* Estilo para el modo oscuro en el botón de eliminar */
+body.dark-mode .deleteBtn {
+  background-color: #FF5733; /* Fondo naranja oscuro */
+}
